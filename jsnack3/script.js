@@ -9,7 +9,7 @@ for(let i = 0 ; i < 6 ; i++){
         console.log("Nah, non mi piace")
     }else{
         console.log("Mi piace! Lo aggiungo alla mia collezione")
-        array.push(userNumber);
+        array[array.length] = userNumber;
     }
 }
 

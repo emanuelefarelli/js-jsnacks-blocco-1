@@ -6,7 +6,7 @@ let somma = 0;
 
 for(let i = 0 ; i < 10 ; i++){
     let num = parseInt(prompt("Inserisci un numero:"));
-    array.push(num);
+    array[array.length] = num;
     somma += array[i];
 }
 
